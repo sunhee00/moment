@@ -1,0 +1,142 @@
+@charset "utf-8";
+
+.myPage{
+    width: 100%;
+    
+}
+.myPage h2{
+    font-size: 1.5em;
+    color: #777;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+    border-bottom: 2px solid #555;
+    padding-top: 35px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+/*내 등급 공지 영역 시작*/
+.noticeMy {
+    border: 4px solid #777;
+    border-radius: 3px;
+    padding: 30px;
+    line-height: 2;
+    margin-top: 50px;
+    
+}
+/*내 등급 공지영역 종료*/
+
+/*적립금 영역 시작*/
+.saveCoin {
+    width: 585px;
+    height: 150px;
+    border: 2px solid #ccc;
+    margin: 40px 0;
+    padding: 30px;
+    line-height: 3;
+
+}
+.saveCoinLeft {
+    float: left;
+}
+.saveCoinRight {
+    float: right;
+}
+#saveCoinList {
+    float: left;
+    font-weight: bold;
+}
+
+#saveCoinNow {
+    float: right;
+    color: #555;
+}
+.saveCoin button {
+    padding: 1px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+/*적립금 영역 종료*/
+
+/*주문현황 영역 시작*/
+.orderNow {
+    height: 200px;
+    border: 2px solid black;
+    margin-top: 300px;
+}
+.orderNow > p {
+    
+    background-color: rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+    padding: 20px;
+    margin-top: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+}
+.orderNowFlex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 140px;
+}
+.orderNowFlexItem {
+    flex-basis: 25%; 
+    border-right: 1px dotted #ccc;
+    
+}
+.orderNowFlexItem p{
+    text-align: center;
+    line-height: 3;
+    font-weight: bold;
+    
+}
+.orderNowFlexItem p span{
+    color: #555;
+    font-weight: bolder;
+}
+#cancle p{
+    line-height: 2;
+}
+/*주문현황 영역 종료*/
+
+/*바로가기 링크 영역 시작*/
+.rightLink {
+    display: grid;
+    height: 800px;
+    grid-template-columns: 433px 433px 433px;
+    grid-template-rows: 200px 200px 200px;
+    
+}
+#orderLink {
+    width: 420px;
+    height: 190px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 3;
+    margin: 100px auto;
+    
+}
+#orderLink a {
+    display: inline-block;
+    width: 420px;
+    height: 100%;
+}
+#orderLink:hover {
+    background-color: #ccc;
+}
+#orderLink p {
+    color: black;
+    font-weight: bolder;
+}
+#orderLink p:first-child {
+    margin-top: 30px;
+    font-size: 1.2em;
+    
+}
+#orderLink p:last-child {
+    line-height: 1.3;
+    margin-top: 10px;
+}
+/*바로가기 링크 영역 종료*/

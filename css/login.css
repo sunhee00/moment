@@ -1,0 +1,98 @@
+@charset "utf-8";
+.login{
+    width: 100%;
+    position: relative;
+}
+.login h2{
+    font-size: 1.5em;
+    color: #777;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+    border-bottom: 2px solid #555;
+    padding: 15px 0;
+    margin-bottom: 15px;
+}
+
+#loginForm > p{
+    height: 40px;
+    border-bottom: 1px solid #777;
+    overflow: hidden;
+    position: relative;
+}
+fieldset {
+    border: 7px solid #777;
+    border-radius: 10px;
+    padding: 10px 20px;
+    width: 500px;
+    margin: 100px 410px;
+    display: flex;
+}
+fieldset >legend {
+    font-weight: bold;
+    text-align: center;
+    padding: 0 30px;
+}
+fieldset > .loginWrap {
+    margin: 0 auto;
+}
+fieldset .information {
+    float: left;
+    width: 300px;
+    margin: 10px;
+    padding: 20px 10px;
+}
+
+fieldset >.loginWrap > .information > p {
+    text-align: center;
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    width: 270px;
+    height: 20px;
+    margin: 10px auto;
+    padding: 10px;
+    
+}
+
+fieldset .information label {
+    float: left;
+    margin: auto 0;
+    width: 70px;
+    text-align: left;
+    font-weight: bold;
+
+
+}
+fieldset .information input {
+    float: right;
+}
+fieldset .tryLogin {
+    float: left;
+    width: 83px;
+    margin: 10px;
+    padding: 20px 10px;
+}
+fieldset .tryLogin > button, .tryLogin > .btnJoin {
+    display: inline;
+    border: 2px solid #999;
+    border-radius: 3px;
+    background-color: #777;
+    font-weight: bolder;
+    color: #fff;
+    
+}
+fieldset .tryLogin > .btnOk {
+    width: 80px;
+    height: 50px;
+    margin: 5px auto;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+fieldset .tryLogin > .btnJoin {
+    width: 80px;
+    height: 30;
+    padding: 12.5px;
+    font-size: 0.8em;
+}
+fieldset .tryLogin > .btnJoin >a  {
+    color: #fff;
+}
+ 

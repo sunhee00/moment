@@ -1,0 +1,177 @@
+@charset "utf-8";
+/*상품디테일 기본 설정*/
+.stockMain {
+    width: 100%;
+    height: 1000px;
+
+}
+
+/*상품 이미지 시작*/
+#stockImage {
+    float: left;
+    margin-top: 100px;
+    margin-left: 20px;
+    width: 600px;
+    height: 800px;
+}
+#stockImage img {
+    width: 100%;
+    height: 100%;
+}
+/*상품 이미지 종료*/
+
+/*상품 설명영역 시작*/
+#stockDis {
+    float: right;
+    margin-top: 100px;
+    width: 600px;
+    height: 800px;
+}
+#stockName {
+    padding-top: 30px;
+}
+#stockName > h2 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 40px;
+}
+#stockName > p {
+    padding: 40px 0;
+    color: #777;
+}
+/*상품 설명영역 종료*/
+
+/*상품 옵션 영역 시작*/
+#stockOption {
+    height: 200px;
+    line-height: 3;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 40px 0;
+}
+#stockOption > #optionName {
+    float: left;
+    font-weight: bold;
+}
+#stockOption > #optionValue {
+    float: right;
+    text-align: left;
+}
+#stockOption > #optionValue > select{
+    width: 150px;
+    height: 30px;
+    font-size: 1.1em;
+    border-radius: 5px;
+}
+/*상품 옵션 영역 종료*/
+
+/*옵션 선택시 옵션값 전달영역 시작*/
+.optionResult {
+    visibility: hidden;
+    height: 100px;
+    padding-top: 40px;
+}
+.optionResult > #optionName {
+    display: inline-block;
+    width: 250px;
+    height: 100px;
+    font-weight: bold;
+}
+.optionResult > #optionCount {
+    position: relative;
+    top: -10px;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+.optionResult > #optionCount >input{
+    width: 30px;
+    height: 30px;
+}
+.optionResult > #optionCount > #optionCountP {
+    position: absolute;
+    height: 17px;
+    width: 20px;
+    top: 0;
+    right: 50px;
+    font-weight: bolder;
+    border-radius: 0;
+    border-top-right-radius: 1px;
+    border: 1px solid #555;
+
+}
+.optionResult > #optionCount > #optionCountP:hover {
+    background-color: #999;
+}
+.optionResult > #optionCount > #optionCountM {
+    position: absolute;
+    height: 17px;
+    width: 20px;
+    top: 17px;
+    right: 50px;
+    font-weight: bolder;
+    border-radius: 0;
+    border-bottom-right-radius: 2px;
+    border: 1px solid #555;
+    
+}
+.optionResult > #optionCount > #optionCountM:hover {
+    background-color: #999;
+}
+.optionResult > #lastAmount {
+    position: relative;
+    top: -10px;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+.optionResult > span {
+    position: relative;
+    top: -10px;
+    right: -80px;
+    border: 2px solid #ccc;
+    padding: 3px;
+    background-color: #ccc;
+    cursor: pointer;
+}
+.optionResult > span:hover {
+    background-color: #999;
+}
+/*옵션 선택시 옵션값 전달영역 종료*/
+
+/*최종 금액,선택 영역 시작*/
+.total {
+    height: 50px;
+    font-weight: bolder;
+    font-size: 1.3em;
+}
+.buyOption {
+    height: 100px;
+    margin-top: 20px;
+}
+.buyOption span {
+    width: 80px;
+    height: 20px;
+    background-color: rgba(0, 0, 0, 0.09);
+    padding: 20px;
+    float: left;
+    border: 1px solid #999;
+    text-align: center;
+}
+.buyOption span:first-child {
+    background-color: #999;
+    width: 180px;
+}
+.buyOption span:hover {
+    background-color: #ccc;
+    cursor: pointer;
+}
+.buyOption span:first-child:hover {
+    background-color: #666;
+}
+.buyOption span img {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    bottom: 5px;
+}
+/*최종 금액,선택 영역 종료*/

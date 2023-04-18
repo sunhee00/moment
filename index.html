@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="shortcuticon" href="images/favicon(2).ico">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/agent.js"></script>
+    <script src="js/common.js"></script>
+    <script src="js/moment.js"></script>
+    
+    
+    <title>moment</title>
+</head>
+<body>
+    <!--wrapper영역 시작-->
+    <div id="wrapper">
+        <!--헤더영역시작-->
+        <header>
+            <div class="header">
+                <h1 class="logo">
+                    <a href="index.html">
+                        <img src="images/moment.png" alt="moment">
+                        
+                    </a> 
+                </h1>
+                <ul class="infoLink" id="infoLeft">
+                    <li><a href="login.html">LOGIN</a></li>
+                    <li><a href="join.html">JOIN US</a></li>
+                    <li><a href="myPage.html">MY PAGE</a></li>
+                </ul>
+                <ul class="infoLink" id="infoRight">
+                    <li><a href="#">NOTICE</a></li>
+                    <li><a href="#">Q&A</a></li>
+                    <li><a href="#">REVIEW</a></li>
+                    <li><a href="#"><img src="images/찜.png" alt="like"></a></li>
+                    <li><a href="#"><img src="images/장바구니.png" alt="cart"></a></li>
+                </ul>
+            </div>
+        </header>
+        <!--헤더영역종료-->
+
+        <!--메뉴영역시작-->
+        <div class="menu">
+            <ul class="menuName">
+                <li><a href="#">NEW</a></li>
+                <li><a href="#">BEST ITEM</a></li>
+                <li><a href="#">OUTER</a>
+                    <ul class="aboutMenu aboutOUTER">
+                        <li><a href="#">Jacket</a></li>
+                        <li><a href="#">Cardigan</a></li>
+                        <li><a href="#">Jumper</a></li>
+                        <li><a href="#">Coat</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">TOP</a>
+                    <ul class="aboutMenu aboutTOP">
+                        <li><a href="#">Knit</a></li>
+                        <li><a href="#">Tee</a></li>
+                        <li><a href="#">Blouse</a></li>
+                        <li><a href="#">Sleeveless</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">BOTTOM</a>
+                    <ul class="aboutMenu aboutBOTTOM">
+                        <li><a href="#">Pants</a></li>
+                        <li><a href="#">Skirt</a></li>
+                        <li><a href="#">Denim</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">OPS</a></li>
+                <li><a href="#">SHOES&BAG</a>
+                    <ul class="aboutMenu aboutSHOESandBAG">
+                        <li><a href="#">Shoes</a></li>
+                        <li><a href="#">Bag</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">ACC</a>
+                    <ul class="aboutMenu aboutACC">
+                        <li><a href="#">Belt</a></li>
+                        <li><a href="#">Jewelry</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <!--메뉴영역종료-->
+
+        <!--메인베너영역시작-->
+        <div class="banner">
+            <div class="slider">
+                <img class="slider_image" src="images/saleBanner.jpg" alt="sale">
+                <img class="slider_image" src="images/Banner1.jpg" alt="banner">
+                <img class="slider_image" src="images/Banner2.jpg" alt="banner">
+            </div>
+            <!--컨트롤 버튼 영역-->
+            <div class="control">
+                <div class="control_button">●</div>
+                <div class="control_button">●</div>
+                <div class="control_button">●</div>
+            </div>
+            <!--좌우 컨트롤 버튼 패널-->
+            <div class="left_right_control">
+                <img class="left_control" src="images/leftArrow.png" alt="leftControl">
+                <img class="right_control" src="images/rightArrow.png" alt="rightControl">
+            </div>
+        </div>
+        <!--메인베너영역종료-->
+
+        <!--위클리영역시작-->
+        <div class="weekly">
+            <h2>WEEKLY BEST ITEM</h2>
+            <p>한주간 가장 사랑받은 베스트 아이템:)</p>
+            <div class="weeklyImg">
+                
+                <div class="weeklyBig">
+                    <a href="#">
+                        <img src="images/윈터퍼가디건.jpg" alt="cardigan" >
+                        <div class="caption">
+                            <p>윈터 퍼 가디건</p>
+                            <img class="colors" src="images/colors/분홍색.jpg" alt="pink"><img class="colors" src="images/colors/회색.jpg" alt="gray"><img class="colors" src="images/colors/검은색.jpg" alt="black">
+                            <p>가격</p>
+                        </div>
+                    </a>
+                    
+                </div>
+                <div class="weeklyBig">
+                    <a href="#">
+                        <img src="images/로브자켓1.jpg" alt="jacket">
+                        <div class="caption">
+                            <p>로브 자켓</p>
+                            <img class="colors" src="images/colors/회색.jpg" alt="gray"><img class="colors" src="images/colors/검은색.jpg" alt="black">
+                            <p>가격</p>
+                        </div>
+                    </a>
+                    
+                </div>
+                <div class="weeklySmall">
+                    <a href="#">
+                        <img src="images/스프링가디건.jpg" alt="cardigan">
+                        <div class="caption">
+                            <p>스프링 가디건</p>
+                            <img class="colors" src="images/colors/흰색.jpg" alt="white"><img class="colors" src="images/colors/회색.jpg" alt="gray"><img class="colors" src="images/colors/검은색.jpg" alt="black">
+                            <p>가격</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="weeklySmall">
+                    <a href="#">
+                        <img src="images/체커보드폴라티.jpg" alt="tee">
+                        <div class="caption">
+                            <p>체커보드 폴라티</p>
+                            <img class="colors" src="images/colors/검은색.jpg" alt="black">
+                            <p>가격</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="weeklySmall">
+                    <a href="#">
+                        <img src="images/코튼체크가디건.jpg" alt="cardigan">
+                        <div class="caption">
+                            <p>코튼 체크 가디건</p>
+                            <img class="colors" src="images/colors/노란색.jpg" alt="yellow"><img class="colors" src="images/colors/보라색.jpg" alt="pupple">
+                            <p>가격</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="weeklySmall">
+                    <a href="#"><img src="images/숄더트임티.jpg" alt="tee">
+                        <div class="caption">
+                            <p>숄더 트임 티</p>
+                            <img class="colors" src="images/colors/파란색.jpg" alt="blue"><img class="colors" src="images/colors/검은색.jpg" alt="black">
+                            <p>가격</p>
+                        </div>
+                    </a>
+                </div>
+            
+            </div>
+        </div>
+        <!--위클리영역종료-->
+        
+        <!--new arriver 영역시작-->
+        <div class="new">
+            <h2>NEW ARRIVALS</h2>
+            <p>월 수 금 12pm 신상 업데이트!<br><span>24시간 5% 할인된 가격에 만나보세요</span></p>
+            <div class="section">
+                <ul>
+                    <li>
+                        <div class="newImg">
+                            <span class="wish wish0" onclick="like(0);">♥</span>
+                            <a href="boyFitWidePants.html">
+                                <img src="images/보이핏와이드팬츠.gif" alt="Pants">
+                                
+                                <div class="newName">
+                                    <img class="colors" src="images/colors/흰색.jpg" alt="white"><img class="colors" src="images/colors/검은색.jpg" alt="black">
+                                    <p>보이핏 와이드팬츠</p>
+                                    <p><s>47,800</s><span class="disPrice">45,400</span><span class="disPer">(5%할인)</span></p>
+                                    
+                                </div>
+                            </a>
+                        </div>
+                        <div class="newImg">
+                            <span class="wish wish1" onclick="like(1);">♥</span>
+                            <a href="#">
+                                <img src="images/소프트브이넥가디건.gif" alt="cardigan">
+                                
+                                <div class="newName">
+                                    <img class="colors" src="images/colors/초록색.jpg" alt="green"><img class="colors" src="images/colors/파란색.jpg" alt="blue"><img class="colors" src="images/colors/검은색.jpg" alt="black">
+                                    <p>소프트 브이넥 가디건</p>
+                                    <p><s>29,000</s><span class="disPrice">27,500</span><span class="disPer">(5%할인)</span></p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="newImg">
+                            <span class="wish wish2" onclick="like(2);">♥</span>
+                            <a href="#">
+                                
+                                <img src="images/아이린블라우스.gif" alt="Blouse">
+                                <div class="newName">
+                                    <img class="colors" src="images/colors/흰색.jpg" alt="white"><img class="colors" src="images/colors/검은색.jpg" alt="black">
+                                    <p>아이린 블라우스</p>
+                                    <p><s>39,000</s><span class="disPrice">37,800</span><span class="disPer">(5%할인)</span></p>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="newImg">
+                            <span class="wish wish3" onclick="like(3);">♥</span>
+                            <a href="#">
+                                <img src="images/밀리터리스커트.gif" alt="Skirt">
+                                
+                                <div class="newName">
+                                    <img class="colors" src="images/colors/초록색.jpg" alt="green">
+                                    <p>밀리터리 스커트</p>
+                                    <p><s>34,900</s><span class="disPrice">33,100</span><span class="disPer">(5%할인)</span></p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="newImg">
+                            <span class="wish wish4" onclick="like(4);">♥</span>
+                            <a href="#">
+                                <img src="images/하찌볼레로가디건.gif" alt="cardigan">
+                                
+                                <div class="newName">
+                                    <img class="colors" src="images/colors/보라색.jpg" alt="pupple"><img class="colors" src="images/colors/회색.jpg" alt="gray"><img class="colors" src="images/colors/검은색.jpg" alt="black">
+                                    <p>하찌 볼레로 가디건</p>
+                                    <p><s>32,500</s><span class="disPrice">30,800</span><span class="disPer">(5%할인)</span></p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="newImg">
+                            <span class="wish wish5" onclick="like(5);">♥</span>
+                            <a href="#">
+                                <img src="images/나염랩스커트.gif" alt="Skirt">
+                                
+                                <div class="newName">
+                                    <img class="colors" src="images/colors/보라색.jpg" alt="pupple"><img class="colors" src="images/colors/검은색.jpg" alt="black">
+                                    <p>나염 랩 스커트</p>
+                                    <p><s>43,000</s><span class="disPrice">30,800</span><span class="disPer">(5%할인)</span></p>
+                                </div>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--new arriver 영역종료-->
+
+        <!--사이드바 , 맨위로 버튼 영역 시작-->
+        <div class="sideBar">
+            <ul>
+                <li><a href="#"><img src="images/장바구니.png" alt="shoppingCart"></a></li>
+                <li><a href="#"><img src="images/찜.png" alt="like"></a></li>
+                <li><a href="myPage.html"><img src="images/myPage.png" alt="myPage"></a></li>
+            </ul>
+        </div>
+        <div class="goToTop" onclick="scrollToTop();">
+            <span>▲</span>
+        </div>
+
+        <!--사이드바 , 맨위로 버튼 영역 종료-->
+
+        <!--인스타그램영역시작-->
+        <div class="instar">
+            <p><img src="images/instargram.png" alt="">INSTARGRAM</p>
+            <ul>
+                <li><a href="#"><img src="images/인스타사진.jpg" alt="instargrampicture"></a></li>
+                <li><a href="#"><img src="images/인스타사진.jpg" alt="instargrampicture"></a></li>
+                <li><a href="#"><img src="images/인스타사진.jpg" alt="instargrampicture"></a></li>
+            </ul>
+        </div>
+        <!--인스타그램영역종료-->
+        
+        <!--footer 영역시작-->
+        <footer>
+            <a href="index.html">HOME</a>
+            <a href="#">COMPANY</a>
+            <a href="#">AGREEMENT</a>
+            <a href="#">GUIDE</a>
+            <div>
+                <p>COMPANY : 주식회사 모멘트　OWNER : 이선희　TEL : 1544-7777 ADDRESS : 03190 서울시 종로구 종로 78 미려빌딩 6층 306호<br>
+                    CHIEF PRIVACY OFFICER : 이선희　E-MAIL : sunny@naver.com</p><br>
+                <p>반품주소 : 서울시 종로구 종로 78 미려빌딩 6층 306호 ※ 고객센터 통하여 먼저 접수 후 상품을 보내주셔야하며, 지정택배사를 이용해주시기 바랍니다.</p>    
+            </div>
+        </footer>
+        <!--footer 영역종료-->
+    </div>
+    <!--wrapper영역 종료-->
+</body>
+</html>

@@ -1,0 +1,22 @@
+@charset "utf-8";
+.salePopup {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.salePopup a img {
+    width: 100%;
+    height: 100;
+}
+.salePopup > button {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    background-color: #ccc;
+    color: #fff;
+    font-weight: bolder;
+    width: 30px;
+    height: 30px;
+    font-size: 1.3em;
+    cursor: pointer;
+}
